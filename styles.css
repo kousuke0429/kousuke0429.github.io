@@ -1,0 +1,75 @@
+body {
+  color: #333;
+  font-family: Verdana,sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url("../img/img.back.JPG");
+  background-color: rgb(131, 247, 189);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+}
+
+.info {
+  margin-left: 32px;
+}
+
+.info h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  color: white;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.motive {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.motive > h1 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px; 
+}
+
+.motive > section {
+   margin-bottom: 60px;
+}
+
+.motive > section > h1 {
+  font-size: normal;
+}
+
+.motive p {
+  line-height: 1.8;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
